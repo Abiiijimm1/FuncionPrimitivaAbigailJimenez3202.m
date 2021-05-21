@@ -1,0 +1,18 @@
+%Abigail Jimenez Rojas 3202
+%Tema:Funcion Primitiva
+
+lim_a=input("Agrege El Inicio De Dicho Limite");
+lim_b=input("Agrege El Inicio De Dicho Limite");
+nu_inte=200;
+
+f=input("Mencione Cual Es La Funcion");
+h=(lim_b-lim_a/nu_inte;
+u=lim_a:h:lim_b;
+int=0;
+
+for i=1:nu_inte;
+xm=(u(i)+u(i+1))/2
+int=int+f(xm)*h;
+end
+fprint("La Área es:");
+fprint(%d',int);
